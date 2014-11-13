@@ -800,7 +800,7 @@ class PHPExcel_Calculation_LookupRef
                 return PHPExcel_Calculation_Functions::NA();
             } else {
                 //  otherwise return the appropriate value
-                return $lookup_array[$returnColumn][$rowNumber];
+                return $lookup_array[$rowNumber][$returnColumn];
             }
         }
 
