@@ -24,8 +24,7 @@
     "require": {
         "php": ">=5.2.0",
         "ext-xml": "*",
-        "ext-xmlwriter": "*",
-        "phpunit/phpunit": "~4.3"
+        "ext-xmlwriter": "*"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*"
